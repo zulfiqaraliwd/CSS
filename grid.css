@@ -1,0 +1,33 @@
+.container{
+
+display: grid;
+grid-gap: 30px;
+/* grid-template-columns: 120px 120px 120px 120px 120px; */
+/* grid-template-rows: 200px 200px 200px 200px; */
+/* grid-template-columns: repeat(3,1fr); */
+grid-auto-columns:150px;
+
+}
+
+.items{
+    border:2px solid black;
+    background: lightgreen;
+    color: darkblue;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.items-1{
+ grid-column-start: 2;
+ grid-column-end: 2;
+}
+
+.items-5{
+ grid-column-start: 3;
+ grid-column-end: 4;
+}
+
+
+body{ background-image: url("./pexels-padrinan-255379.jpg");
+    
+}

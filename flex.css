@@ -1,0 +1,21 @@
+h1{
+    color: aliceblue;
+    text-decoration: dashed;
+    background:burlywood
+
+}
+
+
+ol{
+
+flex-direction:column;
+
+}
+li{
+border: 3px solid black;
+font-size: 30px;
+background:gray;
+border-style: dotted;
+text-align: center;
+
+}
